@@ -3,6 +3,7 @@
 
 # R Code for Standard Normal Distribution Graphic with Shaded Regions
 
+# Standard Normal Probability Distribution with Shaded Regions
 par(mar = c(5.2, 7.2, 4.2, 2.2))
 curve(dnorm(x, mean = 0 , sd = 1), xlim = c(-3.25, 3.25), ylim = c(0, 0.42),
       main = "Standard Normal Distribution", 
