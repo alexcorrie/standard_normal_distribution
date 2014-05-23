@@ -3,7 +3,7 @@
 
 # R Code for Standard Normal Distribution Graphic with Shaded Regions
 
-# Standard Normal Probability Distribution with Shaded Regions
+      # Standard Normal Probability Distribution with Shaded Regions
 par(mar = c(5.2, 7.2, 4.2, 2.2))
 curve(dnorm(x, mean = 0 , sd = 1), xlim = c(-3.25, 3.25), ylim = c(0, 0.42),
       main = "Standard Normal Distribution", 
@@ -11,7 +11,7 @@ curve(dnorm(x, mean = 0 , sd = 1), xlim = c(-3.25, 3.25), ylim = c(0, 0.42),
       cex = 0.5, frame.plot = FALSE)
 text(0, dnorm(0) + 0.015, expression(mu==0), adj = 0)
 
-    # Boundaries with text for P(Z) integral (using dnorm) from a to b
+      # Boundaries with text for P(Z) integral (using dnorm) from a to b
 x.val <- c(-3, seq(-3, -2, 0.01), -2)
 y.val <- c(0, dnorm(seq(-3, -2, 0.01)), 0)
 polygon(x.val, y.val, col = "skyblue")
